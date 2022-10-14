@@ -1,0 +1,19 @@
+{
+  "name": "django-graphql-graphene",
+  "version": "2.11.0-a.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mirumee/saleor.git"
+  },
+  "author": "Saleor, Arash-g",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "Dante2": "^0.5.0-rc4"
+  },
+  "devDependencies": {
+    "mjml": "^4.6.2"
+  },
+  "scripts": {
+    "build-schema": "python manage.py get_graphql_schema > zagros/gql/schema.graphql"
+  }
+}
